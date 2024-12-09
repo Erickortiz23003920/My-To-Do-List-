@@ -15,20 +15,16 @@
     font-size: 20px;
     margin-left: 10px;
     background-color: #4A90E2;
-    /* Azul Claro */
     color: #FFFFFF;
-    /* Blanco */
     border: none;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* Centrar el contenido */
 }
 
 .button-add:hover {
     background-color: #7ED321;
-    /* Verde Claro */
 }
 
 .list {
@@ -38,7 +34,6 @@
 
 .list:hover {
     background-color: #98b3d1;
-    /* Verde Claro */
 }
 
 .button-view-all {
@@ -47,16 +42,13 @@
     padding: 10px 20px;
     font-size: 16px;
     background-color: #4A90E2;
-    /* Azul Claro */
     color: #FFFFFF;
-    /* Blanco */
     border: none;
     cursor: pointer;
 }
 
 .button-view-all:hover {
     background-color: #7ED321;
-    /* Verde Claro */
 }
 
 .completed-task {
@@ -66,9 +58,7 @@
 .completed-task-details {
     margin-left: 20px;
     background-color: #98b3d1;
-    /* Azul Claro */
     color: #FFFFFF;
-    /* Blanco */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -77,9 +67,7 @@
 .button-delete {
     margin-left: 10px;
     background-color: #4A90E2;
-    /* Azul Claro */
     color: #FFFFFF;
-    /* Blanco */
     border: none;
     padding: 2px 20px;
     cursor: pointer;
@@ -87,10 +75,8 @@
 
 .button-delete:hover {
     background-color: #7ED321;
-    /* Verde Claro */
 }
 
 .task-item {
     cursor: pointer;
-    /* Cambiar el cursor a una mano cuando pase sobre una tarea pendiente */
 }

@@ -18,7 +18,7 @@ const AgregarTarea = () => {
                 setNombre('');
                 setDescripcion('');
                 setTipo('');
-                navigate('/lista-tareas'); // Redirigir a la lista de tareas
+                navigate('/lista-tareas');
             })
             .catch(error => console.error('Error al agregar tarea', error));
     };

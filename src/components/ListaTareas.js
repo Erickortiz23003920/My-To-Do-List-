@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from 'react-router-dom';
-import { FaHome } from 'react-icons/fa'; // Importar el icono de casa
+import { FaHome } from 'react-icons/fa';
 import './ListaTareas.css';
 
 const ListaTareas = () => {

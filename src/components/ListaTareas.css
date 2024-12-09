@@ -1,7 +1,6 @@
 .container-fluid {
     text-align: center;
     padding: 0 15px;
-    /* Agregar espacio entre la tabla y la orilla de la pantalla */
 }
 
 .header {
@@ -18,16 +17,13 @@
     font-size: 20px;
     margin-left: 10px;
     background-color: #4A90E2;
-    /* Azul Claro */
     color: #FFFFFF;
-    /* Blanco */
     border: none;
     cursor: pointer;
 }
 
 .button-add:hover {
     background-color: #7ED321;
-    /* Verde Claro */
 }
 
 .button-home {
@@ -38,18 +34,14 @@
     font-size: 20px;
     margin-bottom: 20px;
     background-color: #4A90E2;
-    /* Azul Claro */
     color: #FFFFFF;
-    /* Blanco */
     border: none;
     cursor: pointer;
     margin: 0;
-    /* Eliminar el margen alrededor del botón */
 }
 
 .button-home:hover {
     background-color: #7ED321;
-    /* Verde Claro */
 }
 
 .button-home-icon {
@@ -65,9 +57,7 @@
     border-collapse: collapse;
     width: 100%;
     max-width: 90%;
-    /* Limitar el ancho máximo de la tabla */
     margin: 0 auto;
-    /* Centrar la tabla */
 }
 
 .th,
@@ -79,9 +69,7 @@
 
 .button-delete {
     background-color: #4A90E2;
-    /* Azul Claro */
     color: #FFFFFF;
-    /* Blanco */
     border: none;
     padding: 2px 20px;
     cursor: pointer;
@@ -89,7 +77,6 @@
 
 .button-delete:hover {
     background-color: #7ED321;
-    /* Verde Claro */
 }
 
 th{
