@@ -10,7 +10,6 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use("/tareas", tareasRoutes);
 
-// Ruta para la URL raíz
 app.get('/', (req, res) => {
     res.send('Bienvenido a la API de Tareas');
 });
