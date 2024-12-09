@@ -43,7 +43,7 @@ const ListaTareas = () => {
                 </Link>
             </div>
             <div className="header">
-                <h1>Lista de tareas</h1>
+                <h1>Tareas pendientes</h1>
                 <Link to="/agregar-tarea">
                     <button className="button-add">+</button>
                 </Link>
