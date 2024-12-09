@@ -1,8 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const connection = require("./db"); // Importar la conexión a la base de datos
+const connection = require("./db");
 
-// Ruta para obtener tareas
 router.get('/', (req, res) => {
     connection.query('SELECT * FROM tareas', (err, results) => {
         if (err) {
@@ -14,7 +13,6 @@ router.get('/', (req, res) => {
     });
 });
 
-// Ruta para agregar tarea
 router.post('/', (req, res) => {
     const { nombre, descripcion, tipo } = req.body;
     const nuevaTarea = { nombre, descripcion, tipo };
@@ -28,7 +26,6 @@ router.post('/', (req, res) => {
     });
 });
 
-// Ruta para eliminar tarea
 router.delete('/:id', (req, res) => {
     const { id } = req.params;
     connection.query('DELETE FROM tareas WHERE id = ?', [id], (err, results) => {
@@ -41,7 +38,6 @@ router.delete('/:id', (req, res) => {
     });
 });
 
-// Ruta para marcar tarea como completada
 router.put('/:id', (req, res) => {
     const { id } = req.params;
     connection.query('UPDATE tareas SET completada = TRUE WHERE id = ?', [id], (err, results) => {
